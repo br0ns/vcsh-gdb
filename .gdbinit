@@ -1,0 +1,1 @@
+/home/br0ns/config/dotgdbinit
