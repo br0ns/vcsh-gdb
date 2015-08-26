@@ -7,6 +7,10 @@ python import sys, os
 python sys.path.append(os.path.expanduser('~/projects/forks/libheap/'))
 python from libheap import *
 
+# Voltron
+source /usr/local/lib/python2.7/dist-packages/voltron-0.1-py2.7.egg/dbgentry.py
+voltron init
+
 # Settings
 set disassembly-flavor intel
 set disable-randomization off
