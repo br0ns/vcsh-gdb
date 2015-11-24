@@ -1,15 +1,18 @@
-# PEDA
-source ~/projects/forks/peda/peda.py
-peda set option pagesize 0
+# # PEDA
+# source ~/projects/forks/peda/peda.py
+# peda set option pagesize 0
 
-# LibHeap
-python import sys, os
-python sys.path.append(os.path.expanduser('~/projects/forks/libheap/'))
-python from libheap import *
+# # LibHeap
+# python import sys, os
+# python sys.path.append(os.path.expanduser('~/projects/forks/libheap/'))
+# python from libheap import *
 
-# Voltron
-source /usr/local/lib/python2.7/dist-packages/voltron-0.1-py2.7.egg/dbgentry.py
-voltron init
+# # Voltron
+# source /usr/local/lib/python2.7/dist-packages/voltron-0.1-py2.7.egg/dbgentry.py
+# voltron init
+
+# pwndbg
+source ~/projects/forks/pwndbg/gdbinit.py
 
 # Settings
 set disassembly-flavor intel
