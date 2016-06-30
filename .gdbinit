@@ -1,6 +1,6 @@
-# # PEDA
-# source ~/projects/forks/peda/peda.py
-# peda set option pagesize 0
+# PEDA
+source ~/projects/forks/peda/peda.py
+peda set option pagesize 0
 
 # # LibHeap
 # python import sys, os
@@ -12,7 +12,7 @@
 # voltron init
 
 # pwndbg
-source ~/projects/forks/pwndbg/gdbinit.py
+# source ~/projects/forks/pwndbg/gdbinit.py
 
 # Settings
 set disassembly-flavor intel
